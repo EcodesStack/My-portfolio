@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* Custom CSS */
+
+@theme {
+
+  --font-outfit: 'Outfit', sans-serif;
+  --font-ovo: 'Ovo', serif;
+
+  --color-lighthover: #fcf4ff;
+  --color-darkhover: #2a004a;
+
+  --dark-theme: #11001f;
+
+  --boxshadow-black: 4px_4px_0_#000;
+  --boxshadow-white: 4px_4px_0_#fff;
+
+}
+
+
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin-slow 5s linear infinite;
+}
