@@ -25,7 +25,7 @@ const Work = () => {
           className="aspect-square bg-no-repeat bg-cover bg-center
           rounded-lg relative cursor-pointer group"
         >
-          <div
+          <a href="http://frontend-umber-rho-28.vercel.app"
             className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3
           px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
@@ -38,9 +38,11 @@ const Work = () => {
               className="border rounded-full border-black w-9 aspect-square flex items-center justify-center
           shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src={send} alt="" className="w-5 animate-pulse" />
+             <a href="http://frontend-umber-rho-28.vercel.app">
+             <img src={send} alt="" className="w-5 animate-pulse" />
+             </a>
             </div>
-          </div>
+          </a>
         </div>
 
         <div
@@ -48,7 +50,7 @@ const Work = () => {
           className="aspect-square bg-no-repeat bg-cover bg-center
           rounded-lg relative cursor-pointer group"
         >
-          <div
+          <a href="https://real-estate-f333e.web.app"
             className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3
           px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
@@ -65,7 +67,7 @@ const Work = () => {
                 <img src={send} alt="" className="w-5 animate-pulse" />
               </a>
             </div>
-          </div>
+          </a>
         </div>
 
         <div
@@ -73,7 +75,7 @@ const Work = () => {
           className="aspect-square bg-no-repeat bg-cover bg-center
           rounded-lg relative cursor-pointer group"
         >
-          <div
+          <a href="https://doctors-appointment-website.vercel.app/"
             className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3
           px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
@@ -90,7 +92,7 @@ const Work = () => {
             >
               <img src={send} alt="" className="w-5 animate-pulse" />
             </div>
-          </div>
+          </a>
         </div>
 
         <div
@@ -98,7 +100,7 @@ const Work = () => {
           className="aspect-square bg-no-repeat bg-cover bg-center
           rounded-lg relative cursor-pointer group"
         >
-          <div
+          <a href="https://alynn-ai.vercel.app/"
             className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3
           px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
@@ -115,7 +117,7 @@ const Work = () => {
               <img src={send} alt="" className="w-5 animate-pulse" />
               </a>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 
